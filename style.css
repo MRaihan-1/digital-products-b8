@@ -60,3 +60,46 @@
 .btn:hover{
     color: rgb(232, 7, 45);
 }
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(33, 28, 28);
+    color: white;
+}
+
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: aqua;
+}
+
+.box-title{
+    padding: 10px;
+}
+.box-dscrpt{
+    padding: 5px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
